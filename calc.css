@@ -1,0 +1,45 @@
+body {
+    background-color: #121212;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftEmpty {
+    width: 25%;
+    height: 90vh;
+    background-color: #191919;
+}
+
+#rightEmpty {
+    width: 25%;
+    height: 90vh;
+    background-color: #191919;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    background-color: #f2f2f2;
+}
+
+#inputField {
+    background-color: #f2f2f2;
+    border: #191919 solid 3px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 20%;
+    padding: auto;
+    padding-right: 0;
+    text-align: right;
+    font-size: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
